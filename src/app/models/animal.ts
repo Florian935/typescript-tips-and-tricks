@@ -1,3 +1,3 @@
 export class Animal {
-    constructor(public couleur: string) {}
+    constructor(public color: string) {}
 }
