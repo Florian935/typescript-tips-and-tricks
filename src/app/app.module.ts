@@ -7,6 +7,7 @@ import { GenericInstanciatorFunctionComponent } from './generic-instanciator-fun
 import { PartialTypescriptTypeComponent } from './partial-typescript-type/partial-typescript-type.component';
 import { KeyofTypescriptComponent } from './keyof-typescript/keyof-typescript.component';
 import { MappedTypesComponent } from './mapped-types/mapped-types.component';
+import { CoalescingOperatorComponent } from './coalescing-operator/coalescing-operator.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MappedTypesComponent } from './mapped-types/mapped-types.component';
     GenericInstanciatorFunctionComponent,
     PartialTypescriptTypeComponent,
     KeyofTypescriptComponent,
-    MappedTypesComponent
+    MappedTypesComponent,
+    CoalescingOperatorComponent
   ],
   imports: [
     BrowserModule,
